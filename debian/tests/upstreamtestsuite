@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+sed test/run.js -e "s|../||g" > test.js
+mocha test.js

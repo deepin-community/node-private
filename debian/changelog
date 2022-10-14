@@ -1,0 +1,81 @@
+node-private (0.1.8-6) unstable; urgency=medium
+
+  * Bump debhelper from old 12 to 13.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Fri, 24 Sep 2021 01:36:03 +0100
+
+node-private (0.1.8-5) unstable; urgency=medium
+
+  * Fix d/watch.
+  * Bump standards-version to 4.6.0.
+  * Declare d/rules doesn't require root.
+  * Declare the require autopkgtest as superficial.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 26 Aug 2021 22:03:36 +0200
+
+node-private (0.1.8-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.2.1, no changes needed.
+
+  [ Julien Puydt ]
+  * Mark the package Multi-Arch: foreign following hinter.
+  * Bump std-ver to 4.5.0.
+  * Install files in /usr/share/nodejs and not /usr/lib/nodejs anymore.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 25 May 2020 10:13:23 +0200
+
+node-private (0.1.8-3) unstable; urgency=medium
+
+  * Point d/watch to /releases instead of /tags.
+  * Bump std-ver to 4.2.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 16 Aug 2018 08:18:49 +0200
+
+node-private (0.1.8-2) unstable; urgency=medium
+
+  * Refresh packaging:
+    - Use my debian.org mail address.
+    - Point Vcs-* fields to salsa.
+    - Bump dh compat to 11.
+    - Bump std-ver to 4.1.5.
+  * Run upstream test suite in autopkgtest.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 07 Aug 2018 12:45:33 +0200
+
+node-private (0.1.8-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump std-ver to 4.1.1.
+  * Bump d/watch to version 4.
+  * Put in section javascript rather than web.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Tue, 17 Oct 2017 20:17:22 +0200
+
+node-private (0.1.7-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Upstream now tags releases : rewrite d/watch to use them.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Wed, 08 Feb 2017 10:07:43 +0100
+
+node-private (0.1.6+20141112-2) unstable; urgency=medium
+
+  * Push standards-version up to 3.9.8.
+  * Use https in Vcs-* fields.
+  * Rewrite d/watch using a new fakeupstream feature (thanks Paul Wise).
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Thu, 19 Jan 2017 10:06:51 +0100
+
+node-private (0.1.6+20141112-1) unstable; urgency=low
+
+  * Snapshot of upstream's git (8df9e34c8f66a5e634a1024dba3ea16704d5178d).
+  * Initial release (Closes: #789794)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Wed, 14 Oct 2015 13:28:05 +0200
